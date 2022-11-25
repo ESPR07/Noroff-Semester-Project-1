@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "roboto", Verdana, Tahoma, sans-serif;
+  src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
+:root {
+  --navBarBackground: #000000;
+  --contentTextColor: #000000;
+  --navTextColor: #ffffff;
+  --eventsBar: #0fc8a5;
+  --locationBox: #0fc8a5;
+  --admissionBox: #0bc2d4;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", Verdana, Tahoma, sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--navTextColor);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: var(--navBarBackground);
+  color: var(--navTextColor);
+  display: flex;
+  font-weight: 800;
+  text-align: center;
+}
+
+.home-logo-link {
+  display: flex;
+}
+
+header p {
+  margin-left: 20px;
+}
+
+nav {
+  position: absolute;
+}
+
+.hamburger-menu-elements li {
+  background-color: var(--navBarBackground);
+  list-style: none;
+  display: block;
+}
