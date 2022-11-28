@@ -48,16 +48,7 @@ header {
   display: flex;
 }
 
-header p {
-  margin-left: 20px;
-}
-
-nav {
-  position: absolute;
-}
-
 .hamburger-menu-elements li {
   background-color: var(--navBarBackground);
   list-style: none;
-  display: block;
 }
