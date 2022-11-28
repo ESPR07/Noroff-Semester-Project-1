@@ -26,6 +26,13 @@ Mobile
 
 3. Landing Page
 
+=======
+Desktop
+=======
+1d. Desktop Nav Bar
+
+2d. Desktop Landing Page
+
 
 
 ========================================================================
@@ -146,8 +153,37 @@ header {
   padding-inline: 20px;
 }
 
-@media (min-width 800px) {
-  .hamburger-menu-elements {
-    display: flex;
+/*=================
+1d. Desktop Nav Bar
+===================*/
+
+@media (min-width: 800px) {
+  .burger-icon {
+    display: none;
   }
+
+  .nav-container {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .hamburger-menu-elements {
+    margin: 0;
+  }
+
+  .hamburger-menu-elements li {
+    display: inline;
+    font-size: 1.5rem;
+    margin-inline: 10px;
+  }
+
+  .hamburger-menu-elements ul {
+    margin: 0;
+  }
+
+  /*====================
+2d. Desktop Landing Page
+========================*/
 }
