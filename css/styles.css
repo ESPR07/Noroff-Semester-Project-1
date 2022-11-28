@@ -5,12 +5,12 @@
 
 :root {
   --navBarBackground: #000000;
-  --contentTextColor: #000000;
+  --contentTextColor: #ffffff;
   --navTextColor: #ffffff;
-  --eventsBar: #0fc8a5;
   --locationBox: #0fc8a5;
   --admissionBox: #0bc2d4;
   --headingText: #0fc8a5;
+  --eventBox: linear-gradient(to right, #0fc8a5, black);
 }
 
 /*======================================================================
