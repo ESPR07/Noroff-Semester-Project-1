@@ -12,6 +12,26 @@
   --admissionBox: #0bc2d4;
 }
 
+/*======================================================================
+========================================================================
+Table of Content:
+
+======
+Mobile
+======
+1. Global Values
+
+2. Nav Bar
+
+
+
+========================================================================
+========================================================================*/
+
+/*==============
+1. Global Values
+================*/
+
 html {
   margin: 0;
   padding: 0;
@@ -34,7 +54,11 @@ a:hover {
   text-decoration-thickness: 3px;
 }
 
-header {
+/*==============
+2. Nav Bar
+================*/
+
+.logo-link-container {
   height: 70px;
   width: 100%;
   background-color: var(--navBarBackground);
@@ -42,13 +66,45 @@ header {
   display: flex;
   font-weight: 800;
   text-align: center;
+  justify-content: center;
 }
 
 .home-logo-link {
   display: flex;
 }
 
+.nav-container {
+  display: none;
+}
+
+.hamburger-menu-elements {
+  padding: 0;
+  margin-top: 50px;
+}
+
 .hamburger-menu-elements li {
+  font-size: 2rem;
+  margin-block: 40%;
+}
+
+.hamburger-menu-elements ul {
+  margin-top: 200px;
+}
+
+#burger-check {
+  display: none;
+}
+
+.burger-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#burger-check:checked ~ .nav-container {
   background-color: var(--navBarBackground);
-  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
 }

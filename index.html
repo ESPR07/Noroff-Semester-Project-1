@@ -12,21 +12,29 @@
   </head>
   <body>
     <header>
-      <a href="/index.html" class="home-logo-link">
-        <img
-          src="/images/open-science-735787-transparent-white.webp"
-          alt="CSM Logo"
-          class="nav-logo"
-        />
-        <p>Community Science <br />Museum</p>
-      </a>
+      <div class="logo-link-container">
+        <a href="/index.html" class="home-logo-link">
+          <img
+            src="/images/open-science-735787-transparent-white.webp"
+            alt="CSM Logo"
+            class="nav-logo"
+          />
+          <p>Community Science <br />Museum</p>
+        </a>
+      </div>
       <nav>
-        <ul class="hamburger-menu-elements">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/exhibition.html">Exhibitions</a></li>
-          <li><a href="/about-us.html">About Us</a></li>
-          <li><a href="/visit-us.html">Visit Us</a></li>
-        </ul>
+        <input type="checkbox" id="burger-check" />
+        <label for="burger-check" class="burger-icon"
+          ><img src="/images/menu-hambuger.png" alt="Menu Icon"
+        /></label>
+        <div class="nav-container">
+          <ul class="hamburger-menu-elements">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/exhibition.html">Exhibitions</a></li>
+            <li><a href="/about-us.html">About Us</a></li>
+            <li><a href="/visit-us.html">Visit Us</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
   </body>
