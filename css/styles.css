@@ -10,6 +10,7 @@
   --eventsBar: #0fc8a5;
   --locationBox: #0fc8a5;
   --admissionBox: #0bc2d4;
+  --headingText: #0fc8a5;
 }
 
 /*======================================================================
@@ -46,7 +47,7 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
-  color: var(--navTextColor);
+  color: var(--headingText);
 }
 
 a:hover {
@@ -66,11 +67,16 @@ a:hover {
   display: flex;
   font-weight: 800;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .home-logo-link {
   display: flex;
+  gap: 40px;
+}
+
+.home-logo-link p {
+  color: var(--navTextColor);
 }
 
 .nav-container {
@@ -108,3 +114,7 @@ a:hover {
   text-align: center;
   height: 100%;
 }
+
+/*==============
+3. Landing Page
+================*/
