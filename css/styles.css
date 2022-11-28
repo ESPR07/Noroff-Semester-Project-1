@@ -5,12 +5,16 @@
 
 :root {
   --navBarBackground: #000000;
+  --siteBackground: #1a1a1a;
   --pageBackground: rgba(0, 0, 0, 0.9);
   --contentTextColor: #ffffff;
   --navTextColor: #ffffff;
   --headingText: #0fc8a5;
   --eventBox: linear-gradient(to right, #0fc8a5, black);
   --visitBoxBackground: #000000;
+  --buttonBackground: #0fc8a5;
+  --buttonText: #000000;
+  --clickableLinks: #0fc8a5;
 }
 
 /*======================================================================
@@ -50,17 +54,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: "roboto", Verdana, Tahoma, sans-serif;
+  background-color: var(--siteBackground);
 }
 
 a:link,
 a:visited {
   text-decoration: none;
-  color: var(--headingText);
 }
 
 a:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+
+.navigation-buttons {
+  color: var(--buttonText);
+  background-color: var(--buttonBackground);
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
 }
 
 /*==============
@@ -95,9 +110,10 @@ header {
   display: none;
 }
 
-.hamburger-menu-elements {
+.hamburger-menu-elements a {
   padding: 0;
   margin-top: 50px;
+  color: var(--clickableLinks);
 }
 
 .hamburger-menu-elements li {
@@ -117,6 +133,7 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 1;
 }
 
 #burger-check:checked ~ .nav-container {
@@ -131,33 +148,70 @@ header {
 /*==============
 3. Landing Page
 ================*/
-.home-article-1 {
+.home-section-1 {
   background-image: url(/images/pexels-pixabay-459475.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
-  min-height: 300px;
-  top: 70px;
-  position: absolute;
   z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
 }
 
-.home-article-1 h1 {
+.home-section-1 h1 {
   color: var(--headingText);
   text-align: center;
+  font-size: 2rem;
 }
 
-.home-article-1 p {
+.home-section-1 p {
   color: var(--contentTextColor);
   text-align: center;
   padding-inline: 20px;
+  font-size: 1.2rem;
+}
+
+.home-section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.home-section-2-article {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.home-section-2-article-image-1 {
+  background-image: url(/images/samuel-zeller-158996.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-section-2-article h2 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--headingText);
+}
+
+.home-section-2-article p {
+  color: var(--contentTextColor);
+  margin-top: 5px;
 }
 
 /*=================
 1d. Desktop Nav Bar
 ===================*/
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .burger-icon {
     display: none;
   }
@@ -186,4 +240,8 @@ header {
   /*====================
 2d. Desktop Landing Page
 ========================*/
+
+  .home-article-1 p {
+    padding-inline: 20%;
+  }
 }
