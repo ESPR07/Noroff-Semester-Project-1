@@ -24,6 +24,8 @@ Mobile
 
 2. Nav Bar
 
+3. Landing Page
+
 
 
 ========================================================================
@@ -58,6 +60,11 @@ a:hover {
 /*==============
 2. Nav Bar
 ================*/
+
+header {
+  position: fixed;
+  width: 100%;
+}
 
 .logo-link-container {
   height: 70px;
@@ -112,7 +119,7 @@ a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 100%;
+  height: 1200px;
 }
 
 /*==============
