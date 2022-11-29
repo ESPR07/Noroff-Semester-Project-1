@@ -71,7 +71,7 @@ a:hover {
   color: var(--buttonText);
   background-color: var(--buttonBackground);
   width: 150px;
-  height: 70px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,15 +187,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block: 20px;
 }
 
 .home-section-2-article {
   display: flex;
   flex-direction: column;
   height: 300px;
-  width: 350px;
-  margin: 0;
-  margin-block: 10%;
+  max-width: 325px;
 }
 
 .home-section-2-article-image-1 {
@@ -230,6 +229,12 @@ header {
 .home-section-2-article p {
   color: var(--contentTextColor);
   margin-top: 5px;
+}
+
+.button-position {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .event-section {
