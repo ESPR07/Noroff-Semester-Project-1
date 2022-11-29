@@ -96,6 +96,7 @@ header {
   display: flex;
   text-align: center;
   justify-content: space-between;
+  border-bottom: solid white 2px;
 }
 
 .home-logo-link {
