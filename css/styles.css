@@ -173,6 +173,12 @@ header {
   font-size: 1.2rem;
 }
 
+.home-section-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .home-section-2 {
   display: flex;
   justify-content: center;
@@ -194,6 +200,20 @@ header {
   height: 100%;
 }
 
+.home-section-2-article-image-2 {
+  background-image: url(/images/skeleton-414543_1920.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-section-2-article-image-3 {
+  background-image: url(/images/learn-2405206_1920.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
 .home-section-2-article h2 {
   margin: 0;
   margin-top: 10px;
@@ -205,6 +225,24 @@ header {
 .home-section-2-article p {
   color: var(--contentTextColor);
   margin-top: 5px;
+}
+
+.event-section {
+  padding: 20px;
+  margin-top: 20px;
+  background: var(--eventBox);
+  color: var(--contentTextColor);
+}
+
+.event-article-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.event-date,
+.event-header {
+  text-decoration: underline;
+  font-weight: 800;
 }
 
 /*=================
@@ -241,7 +279,7 @@ header {
 2d. Desktop Landing Page
 ========================*/
 
-  .home-article-1 p {
+  .home-section-1 p {
     padding-inline: 20%;
   }
 }
