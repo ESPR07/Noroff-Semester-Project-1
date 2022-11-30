@@ -32,6 +32,8 @@ Mobile
 
 3. Landing Page
 
+4. Exhibition Page
+
 =======
 Desktop
 =======
@@ -87,6 +89,7 @@ a:hover {
 header {
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .logo-link-container {
@@ -279,6 +282,9 @@ header {
 
 footer {
   min-height: 150px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 footer img {
@@ -302,6 +308,35 @@ footer img {
   background-position: center;
   background-size: cover;
   min-height: 50px;
+}
+
+/*================
+4. Exhibition Page
+==================*/
+
+.exhibition-title-image {
+  background-image: url(/images/william-bout-264826.webp);
+  background-position: center;
+  min-height: 250px;
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.exhibition-title-wrapper {
+  background-color: rgba(15, 200, 165, 0.8);
+  width: 250px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.exhibition-title-wrapper h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 /*=================
