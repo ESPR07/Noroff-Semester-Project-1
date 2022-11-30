@@ -41,6 +41,8 @@ Desktop
 
 2d. Desktop Landing Page
 
+3d. Desktop Exhibition Page
+
 
 
 ========================================================================
@@ -82,6 +84,22 @@ a:hover {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+h2,
+h3,
+h4 {
+  color: var(--headingText);
+}
+
+p {
+  color: var(--contentTextColor);
+}
+
+/*=============
+===============
+Mobile Values
+===============
+===============*/
 
 /*==============
 2. Nav Bar
@@ -162,6 +180,7 @@ header {
 /*==============
 3. Landing Page
 ================*/
+
 .home-section-1 {
   background-image: url(/images/pexels-pixabay-459475.jpg);
   background-position: center;
@@ -182,7 +201,6 @@ header {
 }
 
 .home-section-1 p {
-  color: var(--contentTextColor);
   text-align: center;
   padding-inline: 20px;
   font-size: 1.5rem;
@@ -234,11 +252,9 @@ header {
   margin-top: 10px;
   font-size: var(--fontHeading);
   font-weight: 800;
-  color: var(--headingText);
 }
 
 .home-section-2-article p {
-  color: var(--contentTextColor);
   margin-top: 5px;
   font-size: var(--fontContent);
 }
@@ -265,6 +281,7 @@ header {
 .event-header {
   text-decoration: underline;
   font-weight: 800;
+  color: var(--contentTextColor);
 }
 
 .event-header {
@@ -274,6 +291,7 @@ header {
 
 .event-section h4 {
   font-size: var(--fontHeading);
+  color: var(--contentTextColor);
 }
 
 .event-section p {
@@ -283,7 +301,6 @@ header {
 footer {
   min-height: 150px;
   width: 100%;
-  position: absolute;
   bottom: 0;
 }
 
@@ -318,6 +335,7 @@ footer img {
   background-image: url(/images/william-bout-264826.webp);
   background-position: center;
   min-height: 250px;
+  width: 100%;
   margin-top: 70px;
   display: flex;
   align-items: flex-end;
@@ -338,6 +356,43 @@ footer img {
   margin: 0;
   font-size: 2.5rem;
 }
+
+.exhibition-section {
+  margin-block: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exhibition-article {
+  display: flex;
+  flex-direction: column;
+  max-width: 850px;
+}
+
+.exhibition-text-wrapper {
+  margin-inline: 20px;
+}
+
+.exhibition-article h2 {
+  font-size: 1.8rem;
+}
+
+.exhibition-article p {
+  font-size: 1.3rem;
+}
+
+.exhibition-article img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*=============
+===============
+Desktop Values
+===============
+===============*/
 
 /*=================
 1d. Desktop Nav Bar
@@ -388,5 +443,17 @@ footer img {
 
   .home-section-2-article {
     min-width: 350px;
+  }
+
+  /*================
+3d. Desktop Exhibition Page
+==================*/
+
+  .exhibition-section {
+    margin-inline: 20px;
+  }
+
+  .exhibition-text-wrapper {
+    margin-inline: 0px;
   }
 }
