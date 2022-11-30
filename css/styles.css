@@ -123,6 +123,7 @@ header {
 .home-logo-link {
   display: flex;
   gap: 40px;
+  color: var(--contentTextColor);
 }
 
 .home-logo-link p {
@@ -157,6 +158,10 @@ header {
   margin-top: 200px;
 }
 
+.hamburger-menu-elements ul li.active-link > a {
+  text-decoration: underline;
+}
+
 #burger-check {
   display: none;
 }
@@ -182,7 +187,7 @@ header {
 ================*/
 
 .home-section-1 {
-  background-image: url(/images/pexels-pixabay-459475.jpg);
+  background-image: url(/images/pexels-pixabay-459475.webp);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -321,7 +326,7 @@ footer img {
 }
 
 .footer-background {
-  background-image: url(/images/celso-405219.jpg);
+  background-image: url(/images/celso-405219.webp);
   background-position: center;
   background-size: cover;
   min-height: 50px;
@@ -334,6 +339,7 @@ footer img {
 .exhibition-title-image {
   background-image: url(/images/william-bout-264826.webp);
   background-position: center;
+  background-size: cover;
   min-height: 250px;
   width: 100%;
   margin-top: 70px;
@@ -343,13 +349,12 @@ footer img {
 
 .exhibition-title-wrapper {
   background-color: rgba(15, 200, 165, 0.8);
-  width: 250px;
-  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
   margin-left: 10px;
+  padding-inline: 10px;
 }
 
 .exhibition-title-wrapper h1 {
@@ -360,6 +365,7 @@ footer img {
 .exhibition-section {
   margin-block: 20px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -367,6 +373,7 @@ footer img {
   display: flex;
   flex-direction: column;
   max-width: 850px;
+  margin-block: 30px;
 }
 
 .exhibition-text-wrapper {
