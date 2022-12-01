@@ -34,6 +34,8 @@ Mobile
 
 4. Exhibition Page
 
+5. About Us Page
+
 =======
 Desktop
 =======
@@ -392,7 +394,51 @@ footer img {
   max-width: 100%;
   max-height: 200px;
   object-fit: cover;
-  object-position: top;
+}
+
+.exhibition-article-image-1 {
+  object-position: center 20%;
+}
+
+.exhibition-article-image-2 {
+  object-position: center 10%;
+}
+
+.exhibition-article-image-3 {
+  object-position: center 40%;
+}
+
+.exhibition-article-image-4 {
+  object-position: center 60%;
+}
+
+.exhibition-article-image-5 {
+  object-position: center 30%;
+}
+
+/*================
+5. About Us Page
+==================*/
+
+.about-us-title-image {
+  background-image: url(/images/pexels-artem-podrez-5726837.webp);
+  background-position: center 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-us-focus {
+  color: var(--headingText);
+}
+
+.about-us-article-image-3 {
+  object-fit: cover;
+  object-position: center 10%;
 }
 
 /*=============
