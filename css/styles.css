@@ -97,6 +97,7 @@ h4 {
 
 p {
   color: var(--contentTextColor);
+  line-height: 2.3rem;
 }
 
 /*=============
@@ -459,42 +460,55 @@ footer img {
   align-items: flex-end;
 }
 
-.visit-us-wrapper {
-  text-align: center;
+.visit-us-header {
+  font-size: 2rem;
+  color: var(--headingText);
 }
 
-.visit-us-wrapper h2 {
-  font-size: 2rem;
+.visit-us-wrapper {
+  max-width: 900px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.visit-us-wrapper h2,
+h1 {
+  margin: 0;
+  margin-top: 20px;
 }
 
 .visit-us-location {
   display: flex;
   flex-direction: column;
-  margin: 40px;
-  border: solid white 2px;
-}
-
-.visit-us-location h1,
-h2 {
-  color: var(--headingText);
-}
-
-.location-header {
-  font-size: 1.7rem;
-  font-weight: 400;
-  margin: 0;
 }
 
 .location-text {
   font-size: 2.5rem;
+  margin-inline: 10px;
 }
 
-.visit-us-opening-hours {
-  border: solid white 2px;
+.location-img {
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
-.visit-us-opening-hours-content {
+.visit-us-content {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  color: var(--contentTextColor);
   font-size: 1.5rem;
+}
+
+.visit-us-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.visit-us-content ul li {
+  margin-block: 10px;
 }
 
 .visit-us-admission-header-img {
@@ -503,6 +517,11 @@ h2 {
   min-height: 200px;
   background-size: cover;
   background-position: center 80%;
+}
+
+.visit-us-admission {
+  display: flex;
+  flex-direction: column;
 }
 
 /*=============
