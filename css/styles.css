@@ -36,6 +36,8 @@ Mobile
 
 5. About Us Page
 
+6. Visit Page
+
 =======
 Desktop
 =======
@@ -439,6 +441,69 @@ footer img {
 .about-us-article-image-3 {
   object-fit: cover;
   object-position: center 10%;
+}
+
+/*================
+6. Visit Us Page
+==================*/
+
+.visit-us-title-image {
+  background-image: url(/images/scott-webb-102825.webp);
+  background-position: center 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.visit-us-wrapper {
+  text-align: center;
+}
+
+.visit-us-wrapper h2 {
+  font-size: 2rem;
+}
+
+.visit-us-location {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border: solid white 2px;
+}
+
+.visit-us-location h1,
+h2,
+p {
+  color: var(--headingText);
+}
+
+.location-header {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.location-text {
+  font-size: 2.5rem;
+}
+
+.visit-us-opening-hours {
+  border: solid white 2px;
+}
+
+.visit-us-opening-hours-content {
+  font-size: 1.5rem;
+}
+
+.visit-us-admission-header-img {
+  background-image: url(/images/toa-heftiba-412579.webp);
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center 80%;
 }
 
 /*=============
