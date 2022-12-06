@@ -127,8 +127,9 @@ header {
 
 .home-logo-link {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   color: var(--contentTextColor);
+  max-width: 290px;
 }
 
 .home-logo-link p {
@@ -581,9 +582,9 @@ Desktop Values
     min-width: 350px;
   }
 
-  /*================
+  /*=======================
 3d. Desktop Exhibition Page
-==================*/
+===========================*/
 
   .exhibition-section {
     margin-inline: 20px;
@@ -592,4 +593,8 @@ Desktop Values
   .exhibition-text-wrapper {
     margin-inline: 0px;
   }
+
+  /*=======================
+4d. Desktop Visit Page
+===========================*/
 }
