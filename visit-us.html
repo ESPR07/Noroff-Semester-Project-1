@@ -64,11 +64,12 @@
         <article class="visit-us-location">
           <h1 class="visit-us-header">The museum is located at:</h1>
           <p class="location-text">Norgesvei 27, 9999 Boms</p>
-          <img
-            src="/images/Screenshot_1.webp"
-            alt="Map with location."
-            class="location-img"
-          />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.8996883222442!2d10.727666571623686!3d59.91721212620269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd779ba357b%3A0x677038c9acc2591c!2sDet%20kongelige%20slott!5e0!3m2!1sno!2sno!4v1670665708524!5m2!1sno!2sno"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="visit-us-google-maps"
+          ></iframe>
         </article>
         <article class="visit-us-opening-hours">
           <h2 class="visit-us-header">Opening Hours:</h2>
@@ -110,6 +111,61 @@
               <li>50kr</li>
             </ul>
           </div>
+        </article>
+        <article class="visit-us-contact">
+          <h2 class="visit-us-header">Contact Us:</h2>
+          <p>For business inquiries or job applications email us at:</p>
+          <a
+            href="mailto:CSM@business.com? subject=Business inquiery"
+            target="_blank"
+            class="visit-us-contact-link"
+            >CSM@business.com</a
+          >
+          <p>
+            For any questions regarding visit, tours or general questions fill
+            out the form below.
+          </p>
+          <form method="get" class="visit-us-contact-form">
+            <div class="visit-us-contact-info-wrapper">
+              <div class="visit-us-contact-info-name">
+                <label for="name" class="visit-us-name-label">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="visit-us-contact-info-email">
+                <label for="email" class="visit-us-email-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="visit-us-textfield">
+              <label for="text" class="visit-us-text-field">Question</label>
+              <textarea
+                id="text"
+                name="Textfield"
+                placeholder="Write your question here"
+                rows="10"
+                cols="50"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              name="submit button"
+              class="navigation-buttons"
+            />
+          </form>
         </article>
       </section>
       <section class="event-section">
