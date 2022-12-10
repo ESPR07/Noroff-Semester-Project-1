@@ -65,6 +65,18 @@ body {
   padding: 0;
   font-family: "roboto", Verdana, Tahoma, sans-serif;
   background-color: var(--siteBackground);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
 }
 
 a:link,
