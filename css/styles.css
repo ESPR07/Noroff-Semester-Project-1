@@ -231,7 +231,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 70px;
 }
 
 .home-section-1 h1 {
@@ -383,7 +382,6 @@ footer img {
   background-size: cover;
   min-height: 250px;
   width: 100%;
-  margin-top: 70px;
   display: flex;
   align-items: flex-end;
 }
@@ -466,7 +464,6 @@ footer img {
   background-repeat: no-repeat;
   min-height: 250px;
   width: 100%;
-  margin-top: 70px;
   display: flex;
   align-items: flex-end;
 }
@@ -491,7 +488,6 @@ footer img {
   background-repeat: no-repeat;
   min-height: 250px;
   width: 100%;
-  margin-top: 70px;
   display: flex;
   align-items: flex-end;
 }
