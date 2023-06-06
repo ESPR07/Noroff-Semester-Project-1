@@ -25,17 +25,17 @@ Exam's key points:
 
 ### Installing
 
-1. Clone the repo:
+You can either:
+
+1. Clone the repo and use Liveserver:
 
 ```bash
 git clone git@github.com:ESPR07/cross-course-assignment-noroff.git
 ```
 
-2. Install the dependencies:
+2. Open the live site:
 
-```
-npm install
-```
+https://noroff-semester-project-1-sindre.netlify.app/
 
 ### Deployed Sites
 
