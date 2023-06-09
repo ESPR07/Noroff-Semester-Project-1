@@ -1,9 +1,6 @@
 # Noroff-Semester-Project-1
 ![Screenshot_3](https://github.com/ESPR07/Noroff-Semester-Project-1/assets/111272036/f87c25a3-6b03-43cd-847e-3612b4c5df8c)
 
-
-Here is a simple overview of the project.
-
 ## Description
 For the first semester project our assignment was to make a museum information web page. At this stage the main focus was on the HTML and CSS. Things like following DRY principle, making sure the site works on all devices and and testing WCAG compatibility.
 
